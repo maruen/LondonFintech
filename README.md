@@ -19,6 +19,7 @@ Running the Sample
    (For the sake of this exam only two servers are enough to demonstrate)
          
 
+<pre>
 You should se the the message below for the server running on the port 8181
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -46,7 +47,6 @@ can switch to using Caffeine cache, by adding it to the classpath.
 2020-06-26 15:56:02.346  INFO 7834 --- [           main] o.s.cloud.zookeeper.sample.Application   : Started Application in 10.626 seconds (JVM running for 65.425)
 Current number of nodes is -> 1
 We are started!
-
 
 
 And you should see the message below for the server running in the port 8282
@@ -79,6 +79,7 @@ can switch to using Caffeine cache, by adding it to the classpath.
 2020-06-26 15:57:05.754  INFO 9464 --- [           main] o.s.cloud.zookeeper.sample.Application   : Started Application in 7.842 seconds (JVM running for 8.477)
 Current number of nodes is -> 2
 
+</pre>
 
 Note that we don't see the message We are started! in the server runing in the port 8282
 
