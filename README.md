@@ -1,6 +1,6 @@
 # London Fintech Exam
 
-<h1>Running the Sample</h1>
+<h3>Running the Sample</h3>
 
 
 1) Open a terminal and go the folder apache-zookeeper-3.6.1-bin/bin and run the command below:
