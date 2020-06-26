@@ -1,7 +1,7 @@
-# LondonFintechExam
-London Fintech Exam Solution
+# London Fintech Exam
 
-Running the Sample
+<h1>Running the Sample</h1>
+
 
 1) Open a terminal and go the folder apache-zookeeper-3.6.1-bin/bin and run the command below:
     - cd apache-zookeeper-3.6.1-bin/bin
@@ -11,11 +11,11 @@ Running the Sample
     - cd spring-cloud-zookeeper-sample
     - java -jar target/london-fintech-exam-3.0.0-SNAPSHOT.jar --server.port=8181
 
-2) Open a new terminal and go to the folder spring-cloud-zookeeper-sample and run the second server in port 8282
+3) Open a new terminal and go to the folder spring-cloud-zookeeper-sample and run the second server in port 8282
     - cd spring-cloud-zookeeper-sample
     - java -jar target/london-fintech-exam-3.0.0-SNAPSHOT.jar --server.port=8181
 
-3) Repeat the previous step if you want another server running and change the port to another one not used.
+4) Repeat the previous step if you want another server running and change the port to another one not used.
    (For the sake of this exam only two servers are enough to demonstrate)
          
 
