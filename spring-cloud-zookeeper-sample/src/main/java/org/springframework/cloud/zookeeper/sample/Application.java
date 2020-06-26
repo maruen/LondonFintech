@@ -50,6 +50,22 @@ public class Application {
 		return "Hello World! from " + this.registration;
 	}
 
+	@Bean
+	@LoadBalanced
+	RestTemplate loadBalancedRestTemplate()	{
+		return new RestTemplate();
+	}
+
+	@FeignClient("LondonFintechApp")
+	interface AppClient {
+		@RequestMapping(path = "/hi", method = RequestMethod.GET)
+		String hi();
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+
 	@RequestMapping("/instances")
 	public Integer getNumberOfNodes() {
 		List<ServiceInstance> list = discoveryClient.getInstances("LondonFintechApp");
@@ -65,21 +81,6 @@ public class Application {
 		}
 	}
 
-	@Bean
-	@LoadBalanced
-	RestTemplate loadBalancedRestTemplate()	{
-		return new RestTemplate();
-	}
-
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
-
-	@FeignClient("LondonFintechApp")
-	interface AppClient {
-		@RequestMapping(path = "/hi", method = RequestMethod.GET)
-		String hi();
-	}
 
 
 }
