@@ -34,15 +34,21 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.event.EventListener;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
+import static java.lang.String.format;
+import static org.slf4j.LoggerFactory.getLogger;
+import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @Configuration(proxyBeanMethods = false)
 @EnableAutoConfiguration
 @RestController
 @EnableFeignClients
 public class Application {
+
+
+	org.slf4j.Logger logger = getLogger(Application.class);
 
 	@Value("${spring.application.name:LondonFintechApp}")
 	private String appName;
@@ -60,13 +66,13 @@ public class Application {
 	private AppClient appClient;
 
 	@RequestMapping("/")
-	public ServiceInstance lb() {
+	public ServiceInstance loadBalander() {
 		return this.loadBalancer.choose(this.appName);
 	}
 
 	@RequestMapping("/hi")
 	public String hi() {
-		return "Hello World! from " + this.registration;
+		return format("Hello World! from %s", this.registration);
 	}
 
 	@RequestMapping("/self")
@@ -91,17 +97,17 @@ public class Application {
 	}
 
 	@EventListener(ApplicationReadyEvent.class)
-	public void doSomethingAfterStartup() {
+	public void afterStartup() {
 		Integer nodes = getNumberOfNodes();
-		System.out.println(String.format("Current number of nodes is -> %s", nodes));
+		logger.info(format("Current number of nodes is -> %s", nodes));
 		if (nodes == 1) {
-			System.out.println("We are started!");
+			logger.info("We are started!");
 		}
 	}
 
 	@FeignClient("LondonFintechApp")
 	interface AppClient {
-		@RequestMapping(path = "/hi", method = RequestMethod.GET)
+		@RequestMapping(path = "/hi", method = GET)
 		String hi();
 	}
 

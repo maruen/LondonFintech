@@ -18,3 +18,4 @@ _site/
 .vscode/
 .flattened-pom.xml
 .sdkmanrc
+apache-zookeeper-3.6.1-bin/logs/
