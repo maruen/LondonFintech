@@ -28,22 +28,22 @@ You should se the the message below for the server running on the port 8181
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::       (v2.4.0-SNAPSHOT)
 
-2020-06-26 20:06:50.681  INFO 53922 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-config/LondonFintechApp'}, BootstrapPropertySource {name='bootstrapProperties-config/application'}]
-2020-06-26 20:06:50.724  INFO 53922 --- [           main] o.s.cloud.zookeeper.sample.Application   : No active profile set, falling back to default profiles: default
-2020-06-26 20:06:52.262  INFO 53922 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa4abe82-74e1-3c1f-b0b6-9080e45640f8
-2020-06-26 20:06:52.493  INFO 53922 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.zookeeper.sample.Application$AppClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-06-26 20:06:53.202  INFO 53922 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
-2020-06-26 20:06:53.219  INFO 53922 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-06-26 20:06:53.220  INFO 53922 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
-2020-06-26 20:06:53.335  INFO 53922 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-06-26 20:06:53.335  INFO 53922 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2574 ms
-2020-06-26 20:06:56.276  INFO 53922 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-26 20:06:59.186  WARN 53922 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
-2020-06-26 20:06:59.323  INFO 53922 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-06-26 20:06:59.594  INFO 53922 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
-2020-06-26 20:07:00.169  INFO 53922 --- [           main] o.s.cloud.zookeeper.sample.Application   : Started Application in 11.596 seconds (JVM running for 12.264)
-2020-06-26 20:07:00.567  INFO 53922 --- [           main] o.s.cloud.zookeeper.sample.Application   : Current number of nodes is -> 1
-2020-06-26 20:07:00.567  INFO 53922 --- [           main] o.s.cloud.zookeeper.sample.Application   : We are started!
+ main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-config/LondonFintechApp'}, BootstrapPropertySource {name='bootstrapProperties-config/application'}]
+ main] o.s.cloud.zookeeper.sample.Application   : No active profile set, falling back to default profiles: default
+ main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa4abe82-74e1-3c1f-b0b6-9080e45640f8
+ main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.zookeeper.sample.Application$AppClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+ main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+ main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+ main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2574 ms
+ main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+ main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+ main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+ main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+ main] o.s.cloud.zookeeper.sample.Application   : Started Application in 11.596 seconds (JVM running for 12.264)
+ main] o.s.cloud.zookeeper.sample.Application   : Current number of nodes is -> 1
+ main] o.s.cloud.zookeeper.sample.Application   : We are started!
 
 And you should see the message below for the server running in the port 8282
 
@@ -64,21 +64,21 @@ And you should see the message below for the server running in the port 8282
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::       (v2.4.0-SNAPSHOT)
 
-2020-06-26 20:06:58.874  INFO 54102 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-config/LondonFintechApp'}, BootstrapPropertySource {name='bootstrapProperties-config/application'}]
-2020-06-26 20:06:58.994  INFO 54102 --- [           main] o.s.cloud.zookeeper.sample.Application   : No active profile set, falling back to default profiles: default
-2020-06-26 20:07:03.007  INFO 54102 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa4abe82-74e1-3c1f-b0b6-9080e45640f8
-2020-06-26 20:07:03.629  INFO 54102 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.zookeeper.sample.Application$AppClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-06-26 20:07:04.635  INFO 54102 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8282 (http)
-2020-06-26 20:07:04.651  INFO 54102 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-06-26 20:07:04.652  INFO 54102 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
-2020-06-26 20:07:04.791  INFO 54102 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-06-26 20:07:04.792  INFO 54102 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5621 ms
-2020-06-26 20:07:07.761  INFO 54102 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-26 20:07:09.502  WARN 54102 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
-2020-06-26 20:07:09.563  INFO 54102 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-06-26 20:07:09.714  INFO 54102 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8282 (http) with context path ''
-2020-06-26 20:07:10.169  INFO 54102 --- [           main] o.s.cloud.zookeeper.sample.Application   : Started Application in 15.386 seconds (JVM running for 16.568)
-2020-06-26 20:07:10.404  INFO 54102 --- [           main] o.s.cloud.zookeeper.sample.Application   : Current number of nodes is -> 2
+main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-config/LondonFintechApp'}, BootstrapPropertySource {name='bootstrapProperties-config/application'}]
+main] o.s.cloud.zookeeper.sample.Application   : No active profile set, falling back to default profiles: default
+main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa4abe82-74e1-3c1f-b0b6-9080e45640f8
+main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.zookeeper.sample.Application$AppClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8282 (http)
+main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5621 ms
+main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8282 (http) with context path ''
+main] o.s.cloud.zookeeper.sample.Application   : Started Application in 15.386 seconds (JVM running for 16.568)
+main] o.s.cloud.zookeeper.sample.Application   : Current number of nodes is -> 2
 </pre>
 
 Note that we don't see the message We are started! in the server runing in the port 8282
