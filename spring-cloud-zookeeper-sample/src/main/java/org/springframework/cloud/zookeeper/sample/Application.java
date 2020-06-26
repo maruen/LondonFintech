@@ -20,7 +20,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.cloud.client.ServiceInstance;
@@ -39,6 +38,7 @@ import org.springframework.web.client.RestTemplate;
 
 import static java.lang.String.format;
 import static org.slf4j.LoggerFactory.getLogger;
+import static org.springframework.boot.SpringApplication.run;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @Configuration(proxyBeanMethods = false)
@@ -87,7 +87,7 @@ public class Application {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		run(Application.class, args);
 	}
 
 	@RequestMapping("/instances")

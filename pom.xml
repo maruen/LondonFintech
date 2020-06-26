@@ -20,12 +20,8 @@
 
 	<scm>
 		<url>https://github.com/spring-cloud/spring-cloud-zookeeper</url>
-		<connection>
-			scm:git:git://github.com/spring-cloud/spring-cloud-zookeeper.git
-		</connection>
-		<developerConnection>
-			scm:git:ssh://git@github.com/spring-cloud/spring-cloud-zookeeper.git
-		</developerConnection>
+		<connection>scm:git:git://github.com/spring-cloud/spring-cloud-zookeeper.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/spring-cloud/spring-cloud-zookeeper.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
