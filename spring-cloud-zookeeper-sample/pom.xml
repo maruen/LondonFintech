@@ -5,8 +5,8 @@
 
 	<artifactId>london-fintech-exam</artifactId>
 	<packaging>jar</packaging>
-	<name>London Fintech Exam Solution</name>
-	<description>London Fintech Exam Solution with Spring Cloud Zookeeper</description>
+	<name>LondonFintechExam</name>
+	<description>London Fintech Exam with Spring Cloud Zookeeper</description>
 
 	<parent>
 		<groupId>org.springframework.cloud</groupId>
@@ -20,6 +20,7 @@
 	</properties>
 
 	<build>
+		<finalName>${project.name}-1.0.0</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

@@ -1,0 +1,7 @@
+#Fri Jun 26 20:46:25 BRT 2020
+/Users/Maruen/Projects/LEARNINGS/SPRING-CLOUD-ZOOKEEPER/spring-cloud-zookeeper-sample/src/main/java/org/springframework/cloud/zookeeper/sample/Application.java=1593213681000
+/Users/Maruen/Projects/LEARNINGS/SPRING-CLOUD-ZOOKEEPER/spring-cloud-zookeeper-sample/src/test/java/org/springframework/cloud/zookeeper/sample/SampleApplicationTests.java=1593211560000
+module-resource*?\:file\:/Users/Maruen/Projects/LEARNINGS/SPRING-CLOUD-ZOOKEEPER/spring-cloud-zookeeper-sample/target/checkstyle-header.txt=C87D51DF1E623E1FB90FB3C11AFB37C516E4539F
+module-resource*?\:/Users/Maruen/Projects/LEARNINGS/SPRING-CLOUD-ZOOKEEPER/src/checkstyle/checkstyle-suppressions.xml=305BD4280A1AEB5FD81CCC50D2EA0AFB2CD4BFC1
+module-resource*?\:https\://raw.githubusercontent.com/spring-cloud/spring-cloud-build/master/spring-cloud-build-tools/src/checkstyle/checkstyle-suppressions.xml=6137D3FDA92C2B20744AEC5D3EC984A05C9481CB
+configuration*?=31B43AAE14F5255A194422D621EC599A8DFB61BF

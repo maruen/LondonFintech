@@ -1,0 +1,5 @@
+#Fri Jun 26 20:41:12 BRT 2020
+module-resource*?\:file\:/Users/Maruen/Projects/LEARNINGS/SPRING-CLOUD-ZOOKEEPER/target/checkstyle-header.txt=C87D51DF1E623E1FB90FB3C11AFB37C516E4539F
+module-resource*?\:/Users/Maruen/Projects/LEARNINGS/SPRING-CLOUD-ZOOKEEPER/src/checkstyle/checkstyle-suppressions.xml=305BD4280A1AEB5FD81CCC50D2EA0AFB2CD4BFC1
+module-resource*?\:https\://raw.githubusercontent.com/spring-cloud/spring-cloud-build/master/spring-cloud-build-tools/src/checkstyle/checkstyle-suppressions.xml=6137D3FDA92C2B20744AEC5D3EC984A05C9481CB
+configuration*?=A6803DF0A5EC5CEB76EDDC88238404FBBECF29E9

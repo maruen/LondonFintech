@@ -7,7 +7,6 @@
 .settings/
 .factorypath
 .springBeans
-target/
 _site/
 .idea
 *.iml
