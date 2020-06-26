@@ -84,8 +84,10 @@ main] o.s.cloud.zookeeper.sample.Application   : Current number of nodes is -> 2
 Note that we don't see the message We are started! in the server runing in the port 8282
 
 
-Obs: For debuging
+Obs: For debuging use the command below:
+<pre>
 java -agentlib:jdwp=transport=dt_socket,address=9999,server=y,suspend=y -jar target/london-fintech-exam-3.0.0-SNAPSHOT.jar --server.port=8181
+</pre>
 
 If you want to change the code and rebuild, just change all that you need and xecute the command below:
 
