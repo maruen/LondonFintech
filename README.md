@@ -20,7 +20,7 @@ Running the Sample
          
 
 <pre>
-You should se the the message below for the server running on the port 8181
+
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
@@ -46,16 +46,7 @@ You should se the the message below for the server running on the port 8181
  main] o.s.cloud.zookeeper.sample.Application   : We are started!
 
 And you should see the message below for the server running in the port 8282
-
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::       (v2.4.0-SNAPSHOT)
-
+ 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
