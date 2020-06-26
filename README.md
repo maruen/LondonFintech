@@ -11,7 +11,7 @@ Running the Sample
     - cd spring-cloud-zookeeper-sample
     - java -jar target/london-fintech-exam-3.0.0-SNAPSHOT.jar --server.port=8181
 
-2) Open a new terminal and go to the folder spring-cloud-zookeeper-sample and run the first server in port 8282
+2) Open a new terminal and go to the folder spring-cloud-zookeeper-sample and run the second server in port 8282
     - cd spring-cloud-zookeeper-sample
     - java -jar target/london-fintech-exam-3.0.0-SNAPSHOT.jar --server.port=8181
 
